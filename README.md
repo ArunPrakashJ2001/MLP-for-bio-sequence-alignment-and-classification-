@@ -13,7 +13,8 @@ In bioinformatics, a sequence alignment is a way of arranging the sequences of D
    3. Euclidean distance of the embedded 40-mers
    4. Embedded longest common substring 
  
-Cosine similary of the embedded 40-mers turns out to be the best metric for class label with the least loss. However the disadvantage being, no string reconstruction is possible with a scalar as output. This is the disadvantage of using FastText as an embedding technique. A better approach is to encode the words to their corresponding numbers. For eg: 
+Cosine similary of the embedded 40-mers turns out to be the best metric for class label with the least loss. However the disadvantage being, no string reconstruction is possible with a scalar as output. This is the disadvantage of using FastText as an embedding technique. A better approach is to encode the words to their corresponding numbers. 
+For e.g.: 
 #### "A" -> 1
 #### "C" -> 2
 #### "G" -> 3
