@@ -1,1 +1,1 @@
-# MLP-for-bio-sequence-alignment-and-classification-
+# MLP for bio sequence allignment
